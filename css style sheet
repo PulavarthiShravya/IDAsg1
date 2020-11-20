@@ -1,1 +1,137 @@
+.page1{
+  background-image: url(images/Page1bg.jpg);
 
+}
+
+  #band_name {
+    font-family: 'Pacifico'; font-size: 50px;
+    text-align: center;
+    color: rgb(214, 144, 53);
+  }
+
+  #about_band{
+    color: white;
+  }
+
+
+  .paragraph{
+    color: white;
+    font-family: 'Quicksand'; font-size: 20px;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .esther:hover + .hide{
+    display: block;
+    background-color: aliceblue;
+    color: chocolate;
+  }
+
+  .harry:hover + .hide{
+    display: block;
+    background-color: aliceblue;
+    color: chocolate;
+  }
+
+  .arjun:hover + .hide{
+    display: block;
+    background-color: aliceblue;
+    color: chocolate;
+  }
+
+  .brownie:hover + .hide{
+    display: block;
+    background-color: aliceblue;
+    color: chocolate;
+  }
+
+  .paxton:hover + .hide{
+    display: block;
+    background-color: aliceblue;
+    color: chocolate; 
+  }
+
+  .pagebreak{
+    font-family: 'Sofia';font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .merchandise{
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico'; font-size: 30px;
+    background-color: black;
+    padding: 30px;
+  }
+
+  .page2{
+    background-image: url(images/Page2bg.jpg);
+  }
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.poster{
+color: white;
+font-family: 'Quicksand'; font-size: 30px;
+}
+
+.tickets{
+color: white;
+font-family: 'Quicksand'; font-size: 25px;
+}
+
+
+
+.shirt{
+color: white;
+font-family: 'Quicksand'; font-size: 30px;
+}
+
+.contact{
+  color:white;
+  text-align: center;
+  background-color: black;
+  font-family: 'Pacifico'; font-size: 30px;
+  padding: 30px;
+}
+
+label{
+color: white;
+font-family: 'Quicksand'; font-size: 20px;
+input-width: 20px;
+}
+
+.ask{
+color: white;
+font-family: 'Pacifico'; font-size: 25px;
+}
+
+.message{
+color: white;
+font-family: 'Quicksand'; font-size; 25px;
+}
+
+
+.social{
+color: white;
+font-family: 'Quicksand'; font-size; 25px;
+word-spacing: 200px;
+}
+
+
+.instagram{
+top: 0;
+color: white;
+font-family: 'Quicksand'; font-size: 20px;
+}
