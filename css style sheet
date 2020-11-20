@@ -131,7 +131,6 @@ word-spacing: 200px;
 
 
 .instagram{
-top: 0;
 color: white;
 font-family: 'Quicksand'; font-size: 20px;
 }
