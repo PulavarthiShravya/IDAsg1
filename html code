@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Live Lively Band</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+#section1 {
+}
+
+#section2{
+}
+
+#section3{
+}
+
+</style>
+</head>
+
+
+
+<div>
+
+	<body class = 'page1' id="section1">
+
+		<h1 id='band_name'>Live Lively</h1>
+
+		<div class='page1'>
+
+			<div class="paragraph">
+				<h2>About Live Lively</h2>
+				<p>Live Lively is a band formed in 2010. The band consists of 5 people.Their first hit as a band was in the year 2011.
+					Since then, the band has been giving you non-stop sensational hits and have won your hearts. To know more about every
+					individual, place your mouse on one of their names!</p>
+				<ul>
+					<li class='esther'>Esther</li>
+					<p class='hide'>Esther is the lead guitarist. Esther was born in 1995. He was schooled in Las Vegas. He started to have
+						an interest in music since high-school. At the age of 19, he released his first individual album which was a top hit
+						in the USA!</p>
+
+					<br>
+
+          <li class = 'harry'>Harry</li>
+          <p class = 'hide'>Harry is the lead lyricist. Harry was born in 1996. He came from a not very well-off family. His parents were unable to school him like the rest of his bandmates. However, he had a strong interest in music. This led to him travelling to Las Vegas in search for a musical career where he met his band. Since then, he has rosen to fame by giving them continue hits.</p> 
+
+          <br>
+
+          <li class = 'arjun'>Arjun</li>
+          <p class = 'hide'>Arjun is the lead drummer in the band. Arjun is an anglo-indian. His father married a British woman and they settled in California. Arjun was born to them in 1997. Arjun relates himself as more of an American since he was brought up in USA. Since young, Arjun loved to play his drums. It was then it sparked him an idea to pursue as a drummer. He writes songs as well and can play other instruments such as the guitar, piano and violin</p>
+
+          <br>
+
+          <li class = 'brownie'>Brownie</li>
+          <p class = 'hide'>Bobby Brown, known as Brownie, was born in 1998. He was raised in Chicago, USA. Brownie studied in a public high school. Brownie stated that in his high school days most people would laugh at the way his voice sounded. Now, Brownie is the lead singer of Live Lively and has held a place in your hearts!</p>
+
+          <br>
+          
+          <li class = 'paxton'>Paxton</li>
+          <p class = 'hide'>Paxton Hall-Yoshida, is an asian. He is from Japan. His family moved to USA when he was 5. Paxton has found an interest in music ever since a child. It was at the age of 17 that he decided to join a band and write music and sing. Paxton is youngest of the troop. He is currently 20 years old.</p>
+      </ul>
+      </div>
+    </div>
+<a href = "#section2" >Purchase merchandise</a> <br>
+<br>
+<a href = "#section3">Write a message to US</a> 
+
+
+    <br>
+<div id = "section2">
+<h3 class = 'merchandise'>Purchase Merchandise Here!!!</h3>
+    <div class = "row">
+      <div class = "column">  
+    <img src="livelivelybg.jpg" alt="Live Lively" style="width:100%">
+     <p class = 'poster'>Get your Live Lively Poster with autographs!</p>
+     <p class = 'poster'>USD 30.00</p>
+     </div><br>
+    
+    <div class = "column">
+     <img src = "concerttickets.jpeg" alt="Concert Tickets" style="width:100%">
+     <p class = 'tickets'>Concert Tickets</p>
+     <p class = 'tickets'>Currently Unavailable</p>
+    </div><br>
+
+     <div class = "column">
+    <img src = "cropshirt.jpg" alt="Shirt" width="90%">
+    <p class = 'shirt'>Get your Live Lively shirt!</p>
+    <p class = 'shirt'>USD 30.00</p>
+    </div><br>
+
+  </div>
+</div>
+
+<a href = "#section1" >Go back to top</a> <br>
+<br>
+<a href = "#section3">Write a message to US</a> 
+
+<br>
+
+
+
+<section id="section3">
+<h1 class = 'contact'>Contact Us!</h1> 
+
+<h3 class = 'ask'>Hey Live Livers!</h3>
+<p class = 'message'>Leave a fan mail to your favorite boy band in the country! </p>
+<p class = "message">We will reply you!!</p>
+<p class = "message"> Tell us how you feel about our music!!</p>
+<p class = "message"> Tell us what we can do more to get closer to you!!</p>
+<form action="someurl.php" method="POST">
+<label class = 'label'>Name:
+<input type = "text" placeholder = "Name" name = "name" required>
+</label><br>
+
+<br>
+
+<label class = 'label' for = "message">Notes:
+<textarea id = 'message' name: "message" rows= "5" cols= "40" placeholder = "Tell us how you feel about us!">
+</textarea>
+</label><br>
+<br>
+
+<input type = "submit" value ="Submit">
+
+<br><br>
+</form>
+
+<a href = "#section1" >Go back to top</a> <br>
+<br>
+<a href = "#section2">Merchandise</a> 
+
+<br>
+<p class = "instagram"><img src = "instagram.png" alt="IG" style="width:2%">@livelivelyband</p>
+<p class = "instagram"><img src = "facebook.png" alt="FB" style="width:2%">livelivelyband</p>
+<p class = "instagram"><img src = "twitter.png" alt="tweet" style="width:2%">@livelivelyband</p>
+
+<br>
+<p class = 'social'>Your favorite boy band in town</p>
+
+
+
+        
+    <!-- your code should end --> 
+  </body>
+</div>
+
+</html>
