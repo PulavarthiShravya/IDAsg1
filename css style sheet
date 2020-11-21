@@ -83,10 +83,10 @@
 
 .poster{
 color: white;
-font-family: 'Quicksand'; font-size: 30px;
+font-family: 'Quicksand'; font-size: 25px;
 }
 
-.tickets{
+.CD{
 color: white;
 font-family: 'Quicksand'; font-size: 25px;
 }
@@ -95,7 +95,7 @@ font-family: 'Quicksand'; font-size: 25px;
 
 .shirt{
 color: white;
-font-family: 'Quicksand'; font-size: 30px;
+font-family: 'Quicksand'; font-size: 25px;
 }
 
 .contact{
@@ -131,6 +131,7 @@ word-spacing: 200px;
 
 
 .instagram{
+top: 0;
 color: white;
 font-family: 'Quicksand'; font-size: 20px;
 }
