@@ -10,50 +10,23 @@
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<style>
-		@media only screen and (max-width: 600px) {
-			.instagram {
-				font-family: 'Quicksand';
-				font-size: 15px;
-			}
-
-			.shirt {
-				font-family: "Quicksand";
-				font-size: 15px;
-			}
-
-			.poster {
-				font-family: "Quicksand";
-				font-size: 15px;
-			}
-
-			.CD {
-				font-family: "Quicksand";
-				font-size: 15px;
-			}
-
-			.social {
-				word-spacing: 48px;
-			}
-
-			.text {
-				font-family: "Quicksand";
-				font-size: 12px;
-			}
-
-			#band_name {
-				color: white;
-			}
-
-			.paragraph {
-				font-family: 'Quicksand';
-				font-size: 15px;
-			}
-		}
 
 		* {
 			box-sizing: border-box;
 		}
 
+		.column {
+  			float: left;
+  			width: 33.33%;
+  			padding: 5px;
+		}
+
+		/* Clearfix (clear floats) */
+		.row: :after {
+  			content: "";
+  			clear: both;
+  			display: table;
+		}
 
 
 		html {
@@ -106,6 +79,51 @@
 			-ms-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 			text-align: center;
+		}
+
+		@media screen and (max-width: 600px) {
+
+			.column {
+				width: 100%;
+			}
+
+			.instagram {
+				font-family: 'Quicksand';
+				font-size: 18px;
+			}
+
+			.shirt {
+				font-family: "Quicksand";
+				font-size: 22px;
+			}
+
+			.poster {
+				font-family: "Quicksand";
+				font-size: 18px;
+			}
+
+			.CD {
+				font-family: "Quicksand";
+				font-size: 20px;
+			}
+
+			.social {
+				word-spacing: 48px;
+			}
+
+			.text {
+				font-family: "Quicksand";
+				font-size: 20px;
+			}
+
+			#band_name {
+				color: white;
+			}
+
+			.paragraph {
+				font-family: 'Quicksand';
+				font-size: 18px;
+			}
 		}
 	</style>
 </head>
@@ -165,29 +183,29 @@
 <h3 class = 'merchandise'>Purchase Merchandise Here!!!</h3>
 
 <div class = 'row'>
-<div class = 'column'>
-<div class = "container">
-<img src="livelivelybg.jpg" alt="Live Lively" class = "image">
-<div class = "overlay">
-<div class = "text">USD 30.00</div>
-</div>
-</div>
-<p class = 'poster'>Get your Live Lively Poster with autographs!</p>
+	<div class = 'column'>
+	<div class = "container">
+		<img src="livelivelybg.jpg" alt="Live Lively" style = "width: 100%">
+		<div class = "overlay">
+		<div class = "text">USD 30.00</div>
+		</div>
+	</div>
+	<p class = 'poster'>Get your Live Lively Poster with autographs!</p>
+</div><br>
+
+<div class = "column">
+	<div class = "container">
+	<img src = "CD.png" alt="Music" style = "width: 100%">
+		<div class = "overlay">
+		<div class = "text">USD 25.00</div>
+		</div>
+	</div>
+	<p class = 'CD'>Get your #Forever CD album here</p>
 </div><br>
 
 <div class = "column">
 <div class = "container">
-<img src = "CD.png" alt="Music" class = "image">
-<div class = "overlay">
-<div class = "text">USD 25.00</div>
-</div>
-</div>
-<p class = 'CD'>Get your #Forever CD album here</p>
-</div><br>
-
-<div class = "column">
-<div class = "container">
-<img src = "cropshirt.jpg" alt="Shirt" class = "image">
+<img src = "cropshirt.jpg" alt="Shirt" style = "width: 100%">
 <div class = "overlay">
 <div class = 'text'>USD 30.00</div>
 </div>
@@ -241,9 +259,9 @@
 <a href = "#section2">Merchandise</a> 
 
 <br>
-<p class = "instagram"><img src = "instagram.png" alt="IG" style="width:2%">@livelivelyband</p>
-<p class = "instagram"><img src = "facebook.png" alt="FB" style="width:2%">livelivelyband</p>
-<p class = "instagram"><img src = "twitter.png" alt="tweet" style="width:2%">@livelivelyband</p>
+<p class = "instagram"><img src = "instagram.png" alt="IG" style="width:3.5%">@livelivelyband</p>
+<p class = "instagram"><img src = "facebook.png" alt="FB" style="width:3.5%">livelivelyband</p>
+<p class = "instagram"><img src = "twitter.png" alt="tweet" style="width:3.5%">@livelivelyband</p>
 
 <br>
 <p class = 'social'>Your favorite boy band in town</p>
