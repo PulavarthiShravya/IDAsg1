@@ -53,11 +53,6 @@
     color: chocolate; 
   }
 
-  .pagebreak{
-    font-family: 'Sofia';font-size: 30px;
-    text-align: center;
-    color: white;
-  }
 
   .merchandise{
     color: white;
@@ -67,19 +62,6 @@
     padding: 30px;
   }
 
-  .page2{
-    background-image: url(images/Page2bg.jpg);
-  }
-
-.row {
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 33.33%;
-  padding: 10px;
-}
 
 .poster{
 color: white;
@@ -90,7 +72,6 @@ font-family: 'Quicksand'; font-size: 25px;
 color: white;
 font-family: 'Quicksand'; font-size: 25px;
 }
-
 
 
 .shirt{
@@ -106,7 +87,7 @@ font-family: 'Quicksand'; font-size: 25px;
   padding: 30px;
 }
 
-label{
+.label{
 color: white;
 font-family: 'Quicksand'; font-size: 20px;
 input-width: 20px;
